@@ -25,9 +25,7 @@ cd to script directory.
 Check python3.
 Install requirements.
 Run the script.
-Verification Plan
-Automated Tests
-None planned for this simple script.
+
 Manual Verification
 Run las_converter.py with arguments.
 Run las_converter.py without arguments (interactive mode).
