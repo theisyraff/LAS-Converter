@@ -31,3 +31,5 @@ Manual Verification
 - Run las_converter.py without arguments (interactive mode).
 - Verify run_converter.bat logic (by inspection, as we are on Mac).
 - Verify run_converter.command by running it.
+
+Open for public usage, but please do not claim all the credits T_T
