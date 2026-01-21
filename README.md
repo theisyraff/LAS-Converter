@@ -2,6 +2,7 @@
 A simple CLI code to extract Log ASCII Standard (.las) file into a readable Comma Separated Values (.csv) and Microsoft Excel (.xlsx) file.
 
 Implementation Plan - LAS Converter CLI
+
 The goal is to create a robust, user-friendly Command Line Interface (CLI) for converting LAS files to CSV and XLSX. We will provide executable wrapper scripts for both Windows (.bat) and macOS (.command) to make it easy to run.
 
 Proposed Changes
