@@ -9,23 +9,17 @@ las_converter.py: The main Python script.
 requirements.txt: Dependencies list.
 run_converter.bat: Windows launcher.
 run_converter.command: macOS launcher.
-1. Python Script (las_converter.py)
-Move logic to a class or structured functions.
-File Selection:
-Keep tkinter as an option but prioritize command line arguments or interactive text input if specifically requested.
-Decision: Since the user asked for a "simple CLI to interact", I will add an argparse interface. If no arguments are provided, I will fall back to the existing tkinter GUI because it is the most user-friendly way to "select a file" for non-technical users, but I will wrap it in a nice printed CLI banner.
-Destination:
-Similarly, use argparse or filedialog.
-Progress:
-Implement a text-based progress indicator (e.g., "Step 1/3: Reading LAS file...").
-Error Handling:
-Add try-except blocks with clear error messages and a input("Press Enter to exit...") at the end so the window doesn't close immediately on error.
-2. Windows Batch File (run_converter.bat)
+
+Progress Verbosing: Implement a text-based progress indicator (e.g., "Step 1/3: Reading LAS file...").
+Error Handling: Add try-except blocks with clear error messages and a input("Press Enter to exit...") at the end so the window doesn't close immediately on error.
+
+Windows Batch File (run_converter.bat)
 Check if python is installed.
 Install requirements automatically (or check).
 Run the script.
 Pause at the end.
-3. macOS Command File (run_converter.command)
+
+macOS Command File (run_converter.command)
 Set execute permissions (automatically via script if possible, usage instructions otherwise).
 cd to script directory.
 Check python3.
