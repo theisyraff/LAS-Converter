@@ -5,10 +5,6 @@ Implementation Plan - LAS Converter CLI
 
 The goal is to create a robust, user-friendly Command Line Interface (CLI) for converting LAS files to CSV and XLSX. We will provide executable wrapper scripts for both Windows (.bat) and macOS (.command) to make it easy to run.
 
-Proposed Changes
-Project Structure
-Target Directory: /Users/isyraffian/.gemini/antigravity/scratch/las_converter
-
 las_converter.py: The main Python script.
 requirements.txt: Dependencies list.
 run_converter.bat: Windows launcher.
